@@ -23,9 +23,9 @@ easy.
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "generators/settings_migration/USAGE",
-     "generators/settings_migration/settings_migration_generator.rb",
-     "generators/settings_migration/templates/migration.rb",
+     # "generators/settings_migration/USAGE",
+     # "generators/settings_migration/settings_migration_generator.rb",
+     # "generators/settings_migration/templates/migration.rb",
      "init.rb",
      "lib/settings.rb",
      "rails-settings.gemspec",
@@ -44,13 +44,13 @@ easy.
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<rails>, [">= 2.0.1"])
-    else
-      s.add_dependency(%q<rails>, [">= 2.0.1"])
-    end
+    # if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    #   s.add_development_dependency(%q<rails>, [">= 2.0.1"])
+    # else
+    #   s.add_dependency(%q<rails>, [">= 2.0.1"])
+    # end
   else
-    s.add_dependency(%q<rails>, [">= 2.0.1"])
+    # s.add_dependency(%q<rails>, [">= 2.0.1"])
   end
 end
 
